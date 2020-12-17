@@ -1,0 +1,28 @@
+{
+  "name": "mwbot-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorrisondev/mwbot-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmorrisondev/mwbot-poc/issues"
+  },
+  "homepage": "https://github.com/bmorrisondev/mwbot-poc#readme",
+  "dependencies": {
+    "@brianmmdev/mwbot-poc-helloworld": "^1.0.3",
+    "@brianmmdev/mwbot-poc-logger": "^1.0.3",
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
